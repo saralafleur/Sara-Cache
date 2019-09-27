@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net48;netcoreapp2.2</TargetFrameworks>
+    <Version>1.0.1</Version>
+    <PackageId>Sara-Cache</PackageId>
+    <Authors>Sara LaFleur</Authors>
+    <Company>Sara</Company>
+    <Copyright>Sara LaFleur, 2019</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sara-Common" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

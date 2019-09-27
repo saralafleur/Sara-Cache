@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>Sara-Cache</id>
+    <version>1.2.0</version>
+    <title>Sara Cache C#</title>
+    <authors>Sara LaFleur</authors>
+    <owners>Sara LaFleur</owners>
+    <projectUrl>https://github.com/saralafleur/Sara-Cache</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/saralafleur/Sara-Common/master/Avatar4.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sara-Cache is an in-memory Database framework that is stored offline in an XML file.  Lazy-loading is used to reduce the memory footprint.  The Solution addresses the concern for Data storage and quick access.  Without the need to install and configure a Database Solution.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Sara LaFleur, 2019</copyright>
+    <tags></tags>
+    <license type="file">LICENSE.txt</license>
+    <repository type="git" url="https://github.com/saralafleur/Sara-Cache.git"/>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.IO.Compression.FileSystem" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net48" />
+    </frameworkAssemblies>
+
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Sara-Common" version="[1.2.0,2)" />
+        <dependency id="Sara-Logging" version="[1.2.0,2)" />
+        <dependency id="System.IO.Compression" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.6.0" />
+        <dependency id="System.Security.Permissions" version="4.6.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.6.0" />
+      </group>
+      <group targetFramework="netcoreapp2.2">
+        <dependency id="Sara-Common" version="[1.2.0,2)" />
+        <dependency id="Sara-Logging" version="[1.2.0,2)" />
+        <dependency id="System.IO.Compression" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.6.0" />
+        <dependency id="System.Security.Permissions" version="4.6.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.6.0" />
+      </group>
+      <group targetFramework="net48">
+        <dependency id="Sara-Common" version="[1.2.0,2)" />
+        <dependency id="Sara-Logging" version="[1.2.0,2)" />
+        <dependency id="System.IO.Compression" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.6.0" />
+        <dependency id="System.Security.Permissions" version="4.6.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.6.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Sara.Cache -->
+    <file src=".NET Standard\Sara.NETStandard.Cache\bin\Release\net48\Sara.NETStandard.Cache.dll" target="lib\net48" />
+    <file src=".NET Standard\Sara.NETStandard.Cache\bin\Release\net48\Sara.NETStandard.Cache.pdb" target="lib\net48" />
+    <file src=".NET Standard\Sara.NETStandard.Cache\bin\Release\netcoreapp2.2\Sara.NETStandard.Cache.dll" target="lib\netcoreapp2.2" />
+    <file src=".NET Standard\Sara.NETStandard.Cache\bin\Release\netcoreapp2.2\Sara.NETStandard.Cache.pdb" target="lib\netcoreapp2.2" />
+    <file src=".NET Standard\Sara.NETStandard.Cache\bin\Release\netstandard2.0\Sara.NETStandard.Cache.dll" target="lib\netstandard2.0" />
+    <file src=".NET Standard\Sara.NETStandard.Cache\bin\Release\netstandard2.0\Sara.NETStandard.Cache.pdb" target="lib\netstandard2.0" />
+
+    <!-- License -->
+    <file src="LICENSE.txt" target="" />
+  </files>
+</package>
