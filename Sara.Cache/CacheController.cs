@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     public class CacheController : ICacheController
     {

@@ -1,6 +1,6 @@
 ﻿using Sara.NETStandard.Common.XML;
 
-namespace Sara.NETStandard.Cache.DataStore
+namespace Sara.Cache.DataStore
 {
     public class XmlCacheDataStore : ICacheDataStore
     {

@@ -1,4 +1,4 @@
-﻿namespace Sara.NETStandard.Cache
+﻿namespace Sara.Cache
 {
     public interface ICacheDataStore
     {

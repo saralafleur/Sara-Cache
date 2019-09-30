@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace Sara.NETStandard.Cache.Test
+namespace Sara.Cache.Test
 {
     [TestClass]
     public class CacheFactoryUnitTest

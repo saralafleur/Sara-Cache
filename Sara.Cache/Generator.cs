@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     internal static class Generator
     {

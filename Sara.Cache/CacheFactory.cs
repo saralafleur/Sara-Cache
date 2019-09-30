@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     /// <summary>
     /// Factory for building Cache Data objects

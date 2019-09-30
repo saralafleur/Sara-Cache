@@ -4,7 +4,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     /// <summary>
     /// Adds the ability to a List of Interfaces to serialize and deserialize - Sara

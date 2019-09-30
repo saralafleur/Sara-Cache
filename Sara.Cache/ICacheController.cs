@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     public enum CacheNotificationAction
     {

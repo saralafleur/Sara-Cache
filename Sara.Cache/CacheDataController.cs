@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     /// <summary>
     /// Each ICacheData has a single CacheDataController.  

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Serialization;
 
-namespace Sara.NETStandard.Cache
+namespace Sara.Cache
 {
     public enum LoadingStatus
     {

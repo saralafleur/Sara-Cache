@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Xml.Serialization;
-namespace Sara.NETStandard.Cache.Test
+
+namespace Sara.Cache.Test
 {
     /// <summary>
     /// Test Cache Data class

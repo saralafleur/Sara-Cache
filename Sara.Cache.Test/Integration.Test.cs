@@ -1,10 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sara.NETStandard.Cache.DataStore;
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Sara.Cache.DataStore;
 
-namespace Sara.NETStandard.Cache.Test
+namespace Sara.Cache.Test
 {
     [TestClass]
     public class IntegrationUniTest

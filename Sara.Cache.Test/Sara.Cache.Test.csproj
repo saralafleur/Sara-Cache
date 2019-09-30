@@ -7,8 +7,8 @@
     <ProjectGuid>{AAC65889-40ED-42E6-933C-B88057C53320}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sara.NETStandard.Cache.Test</RootNamespace>
-    <AssemblyName>Sara.NETStandard.Cache.Test</AssemblyName>
+    <RootNamespace>Sara.Cache.Test</RootNamespace>
+    <AssemblyName>Sara.Cache.Test</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -67,9 +67,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sara.NETStandard.Cache\Sara.NETStandard.Cache.csproj">
-      <Project>{237B8241-3CA8-4FE1-B868-B1E6CDCF50D0}</Project>
-      <Name>Sara.NETStandard.Cache</Name>
+    <ProjectReference Include="..\Sara.Cache\Sara.Cache.csproj">
+      <Project>{7EAC7858-EA23-4430-B1AA-285ECCC09318}</Project>
+      <Name>Sara.Cache</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
