@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Sara-Cache</id>
-    <version>1.2.5</version>
+    <version>1.2.9</version>
     <title>Sara Cache C#</title>
     <authors>Sara LaFleur</authors>
     <owners>Sara LaFleur</owners>
@@ -10,7 +10,7 @@
     <iconUrl>https://raw.githubusercontent.com/saralafleur/Sara-Common/master/Avatar4.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sara-Cache is an in-memory Database framework that is stored offline in an XML file.  Lazy-loading is used to reduce the memory footprint.  The Solution addresses the concern for Data storage and quick access.  Without the need to install and configure a Database Solution.</description>
-    <releaseNotes>Initial version.</releaseNotes>
+    <releaseNotes>Sara-LogReader builds...</releaseNotes>
     <copyright>(c) 2019, Sara LaFleur</copyright>
     <tags></tags>
     <license type="file">LICENSE.txt</license>
@@ -18,16 +18,16 @@
 
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="Sara-Common" version="[1.2.5,2)" />
-        <dependency id="Sara-Logging" version="[1.2.5,2)" />
+        <dependency id="Sara-Common" version="[1.2.9,2)" />
+        <dependency id="Sara-Logging" version="[1.2.9,2)" />
       </group>
       <group targetFramework="netcoreapp2.2">
-        <dependency id="Sara-Common" version="[1.2.5,2)" />
-        <dependency id="Sara-Logging" version="[1.2.5,2)" />
+        <dependency id="Sara-Common" version="[1.2.9,2)" />
+        <dependency id="Sara-Logging" version="[1.2.9,2)" />
       </group>
       <group targetFramework="net48">
-        <dependency id="Sara-Common" version="[1.2.5,2)" />
-        <dependency id="Sara-Logging" version="[1.2.5,2)" />
+        <dependency id="Sara-Common" version="[1.2.9,2)" />
+        <dependency id="Sara-Logging" version="[1.2.9,2)" />
       </group>
     </dependencies>
   </metadata>
