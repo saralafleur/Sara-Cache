@@ -1,4 +1,4 @@
-﻿using Sara.NETStandard.Common.XML;
+﻿using Sara.Common.XML;
 
 namespace Sara.Cache.DataStore
 {

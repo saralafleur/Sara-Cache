@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Sara-Common" Version="1.1.1" />
+    <ProjectReference Include="..\..\Sara-Common\Sara.Common\Sara.Common.csproj" />
   </ItemGroup>
 
 </Project>
